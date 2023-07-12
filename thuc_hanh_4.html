@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài thực hành 4</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #app {
+        display: flex;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        padding: 10px;
+        cursor: pointer;
+        background-color: aliceblue;
+    }
+
+    li :hover {
+        background-color: aquamarine;
+        color: white;
+    }
+
+    :left {
+        width: 200px;
+        padding: 10px;
+    }
+
+    .menuitem {
+        background-color: #ffffff;
+        border: 1px solid #d4d4d4;
+        list-style-type: none;
+        padding: 2px;
+
+    }
+
+    .menuitem:hover {
+        background-color: #ffffff;
+
+    }
+
+    .menuitem:first-child {
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+    }
+
+    #right {
+        margin-right: 200px;
+        padding: 20px;
+    }
+
+    h1 {
+        padding: 20px;
+        text-align: center;
+        color: black;
+    }
+</style>
+
+<body>
+    <div id="app">
+        <div class="left">
+            <ul>
+                <li class="menuitem ">Trang chủ</li>
+                <li class="menuitem ">Tin tức</li>
+                <li class="menuitem ">Liên hệ</li>
+                <li class="menuitem ">Về chúng tôi</li>
+            </ul>
+        </div>
+        <div class="right">
+            <h1> Menu dọc bên phải</h1>
+            <p> Đây là một trang web</p>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
